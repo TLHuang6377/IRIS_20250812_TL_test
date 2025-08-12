@@ -5,6 +5,8 @@ import joblib
 
 st.title('IRIS品種預測')
 
+st.image("iris.png")
+
 #模型載入
 svm = joblib.load('models/svm.joblib')
 knn = joblib.load('models/Knn.joblib')
